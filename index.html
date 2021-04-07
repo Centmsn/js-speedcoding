@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Memory game</h1>
+
+    <div class="game">
+      <div class="game__options">
+        <p class="game__text"><span>1.</span>Choose difficulty level</p>
+        <p class="game__text"><span>2.</span>Try to repeat to the sequence</p>
+        <button class="game__button" data-value="1">
+          <span data-value="1">Easy</span>
+        </button>
+        <button class="game__button" data-value="2">
+          <span data-value="2">Medium</span>
+        </button>
+        <button class="game__button" data-value="3">
+          <span data-value="3">Hard</span>
+        </button>
+      </div>
+
+      <span class="game__info"></span>
+      <div class="game__board">
+        <div class="game__tile" data-value="0">1</div>
+        <div class="game__tile" data-value="1">2</div>
+        <div class="game__tile" data-value="2">3</div>
+        <div class="game__tile" data-value="3">4</div>
+        <div class="game__tile" data-value="4">5</div>
+        <div class="game__tile" data-value="5">6</div>
+        <div class="game__tile" data-value="6">7</div>
+        <div class="game__tile" data-value="7">8</div>
+        <div class="game__tile" data-value="8">9</div>
+      </div>
+    </div>
+  </body>
+</html>
